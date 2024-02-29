@@ -544,6 +544,8 @@ header a:hover {
 }
 
 @media screen and (max-width:560px) {
+    body {
+	overflow-y:hidden}
     body::-webkit-scrollbar{
         width: 5px;
     }
