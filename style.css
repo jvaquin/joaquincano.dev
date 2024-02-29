@@ -544,8 +544,10 @@ header a:hover {
 }
 
 @media screen and (max-width:560px) {
+	nav {font-family: 'Quicksand',serif;}
     body {
-	overflow-y:hidden}
+	overflow-x: hidden
+    }
     body::-webkit-scrollbar{
         width: 5px;
     }
@@ -568,6 +570,10 @@ header a:hover {
 }
 /* responsiveness */
 @media screen and (max-width: 767px) {
+		nav {font-family: 'Quicksand',serif;}
+    body {
+	overflow-x: hidden
+    }
     nav {
         justify-content: space-around;
         margin: 0 auto;
@@ -655,6 +661,10 @@ header a:hover {
     }
 
 @media screen and (max-width: 1200px){
+		nav {font-family: 'Quicksand',serif;}
+    body {
+	overflow-x: hidden
+    }
     header {
         height:2em;
     }
